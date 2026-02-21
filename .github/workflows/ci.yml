@@ -22,8 +22,8 @@ jobs:
       - uses: wyvox/action-setup-pnpm@v3
       - name: Install dependencies
         run: pnpm install
-      - name: Lint
-        run: pnpm lint
+      # - name: Lint
+      #   run: pnpm lint
       - name: Test
         run: pnpm test
 

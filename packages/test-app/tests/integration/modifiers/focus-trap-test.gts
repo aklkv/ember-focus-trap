@@ -6,7 +6,7 @@ import { focusTrap } from 'ember-focus-trap';
 import { hash, array } from '@ember/helper';
 import { tracked } from '@glimmer/tracking';
 
-let noop = () => {
+const noop = () => {
   // empty
 };
 
