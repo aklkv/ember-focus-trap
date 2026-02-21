@@ -30,7 +30,7 @@ interface FocusTrapModifierArgs {
   _createFocusTrap?: typeof CreateFocusTrap;
 }
 
-function focusTrapModifier(args: FocusTrapModifierArgs) {
+function focusTrapModifier() {
   return {};
 }
 
